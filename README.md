@@ -1,2 +1,2 @@
-# Git 方式
-# HTTPS 方式
+# react native 
+社区之窗
