@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  InvestNote_iOS
+
+  Created by 韩云智 on 2017/11/17.
+  Copyright © 2017年 韩云智. All rights reserved.
+*/
+
+// 名称多语言
+
+CFBundleDisplayName = "投资云协同基金版";

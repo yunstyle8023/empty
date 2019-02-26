@@ -1,0 +1,68 @@
+//
+//  CA_HPrefixHeader.pch
+//  CNNoteManager
+//
+//  Created by 韩云智 on 2017/11/16.
+//  Copyright © 2017年 韩云智. All rights reserved.
+//
+
+#ifndef CA_HPrefixHeader_pch
+#define CA_HPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// 三方库
+#import <AFNetworking/AFNetworking.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <MJRefresh/MJRefresh.h>
+#import <SDAutoLayout/SDAutoLayout.h>
+#import <YYKit/YYKit.h>
+#import <Masonry/Masonry.h>
+#import <IQKeyboardManager/IQKeyboardManager.h>
+#import <ReactiveObjC/ReactiveObjC.h>
+#import <AsyncDisplayKit/AsyncDisplayKit.h>
+
+
+// 基类
+#import "CA_HBaseViewController.h" //控制器
+
+// 自定义类
+#import "CA_HNetManager.h" // 监听网络状态
+
+#import "CA_HAppManager.h" // 单例
+#import "CA_HAppManager+Login.h"
+#import "CA_HAppManager+Share.h"
+#import "CA_HAppManager+ImagePicker.h"
+#import "CA_HAppManager+Sound.h"
+#import "CA_HAppManager+File.h"
+#import "CA_HAppManager+Account.h"
+
+
+
+#import "CA_HSetLanguage.h" // 多语言支持
+#import "CA_HSetLabel.h" // 多语言支持
+#import "CA_HSetButton.h" // 多语言支持
+
+#import "UIViewController+CA_HAlert.h" //系统弹框扩展类
+#import "UITableView+CA_HTableView.h" // 自定义table扩展
+#import "CA_HShadow.h" //阴影工具
+#import "UILabel+CA_MLable.h"
+#import "UIButton+CA_MButton.h"
+#import "NSObject+CA_MValueableObject.h"
+#import "UIView+CA_MShadow.h"
+#import "NSString+XuSong.h"
+#import "CA_HProgressHUD.h"
+#import "CA_MShareTool.h"
+#import "CA_HDIYHeader.h"
+#import "CA_HFoundFactoryPattern.h"//发现部分工厂模式
+
+// 有趣的调试
+#import "CADebugging.h"
+
+// 宏配置
+#import "CA_HApi.h" // api
+#import "CA_HKey.h" // 密钥
+#import "CA_HConfig.h" // 宏定义
+
+#endif /* CA_HPrefixHeader_pch */
